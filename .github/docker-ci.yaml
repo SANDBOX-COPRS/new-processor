@@ -10,7 +10,7 @@ on:
 
 env:
   REGISTRY_BASE: artifactory.coprs.esa-copernicus.eu
-  ARTIFACTORY_PROJECT: abc-docker
+  ARTIFACTORY_PROJECT: new-processor
   USERNAME: ${{ secrets.ARTIFACTORY_USER }}
   PASSWORD: ${{ secrets.ARTIFACTORY_PASSWORD }}
 
